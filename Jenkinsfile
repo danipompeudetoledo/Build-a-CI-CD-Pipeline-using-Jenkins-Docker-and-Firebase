@@ -24,13 +24,13 @@ pipeline {
 
         stage('Staging') {
             steps {
-                sh 'firebase deploy -P password-generator-staging --token "$FIREBASE_DEPLOY_TOKEN"'
+                sh 'firebase deploy -P password-generator-d4715 --token "$FIREBASE_DEPLOY_TOKEN"'
             }
         }
 
         stage('Production') {
             steps {
-                sh 'firebase deploy -P password-generator-production --token "$FIREBASE_DEPLOY_TOKEN"'
+                sh 'firebase deploy -P password-generator-d4715 --token "$FIREBASE_DEPLOY_TOKEN"'
             }
         }
     }
