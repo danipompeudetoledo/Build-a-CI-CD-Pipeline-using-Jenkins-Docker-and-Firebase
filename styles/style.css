@@ -23,7 +23,7 @@ button {
     width: 400px;
     height: 600px;
     padding: 10px 25px;
-    background: #0a0e31;
+    background: white;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
     font-family: "Montserrat";
@@ -36,7 +36,7 @@ button {
     }
 }
 
-.container1 {
+.container {
     margin: 40px 10px;
     width: 400px;
     height: 600px;
@@ -50,7 +50,7 @@ button {
         font-size: 1.75rem;
         margin: 10px -5px;
         margin-bottom: 30px;
-        color: #fff;
+        color: black;
     }
 }
 
@@ -60,7 +60,7 @@ button {
     width: 100%;
     height: 65px;
     overflow: hidden;
-    background-color: #0d0b00;
+    background-color: blue;
 
     &__info {
         &.right {
@@ -96,7 +96,7 @@ button {
         left: var(--x);
         width: 38px;
         height: 38px;
-        background: #fff;
+        background: red;
         border-radius: 50%;
         opacity: 0;
         transform: translate(-50%, -50%) scale(0);
@@ -231,6 +231,7 @@ $range-label-width: 60px !default;
     widows: 100%;
     display: flex;
     flex-direction: column;
+    
 
     .setting {
         position: relative;
@@ -241,7 +242,7 @@ $range-label-width: 60px !default;
         display: flex;
         align-items: center;
         padding: 10px 25px;
-        color: #fff;
+        ;
         margin-bottom: 8px;
 
         input {
@@ -274,7 +275,7 @@ $range-label-width: 60px !default;
                     width: 24px;
                     border-radius: 60px;
                     right: 32px;
-                    background: #fff;
+                    background: blue;
                 }
             }
 
